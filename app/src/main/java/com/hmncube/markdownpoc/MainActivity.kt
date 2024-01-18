@@ -16,11 +16,11 @@ import androidx.compose.ui.graphics.toArgb
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.viewinterop.AndroidView
-import coil.ImageLoader
 import com.hmncube.markdownpoc.ui.theme.MarkdownPOCTheme
 import io.noties.markwon.AbstractMarkwonPlugin
 import io.noties.markwon.Markwon
 import io.noties.markwon.core.MarkwonTheme
+import io.noties.markwon.ext.tables.TablePlugin
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -53,6 +53,7 @@ fun TestMarkDown(applicationContext: Context) {
 
     val markwon = Markwon.builder(applicationContext)
         .usePlugin(coilPlugin)
+        .usePlugin(TablePlugin.create(LocalContext.current))
         .usePlugin(object : AbstractMarkwonPlugin() {
             override fun configureTheme(builder: MarkwonTheme.Builder) {
                 builder.headingBreakHeight(0)

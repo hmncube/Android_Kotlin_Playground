@@ -1,6 +1,62 @@
 package com.hmncube.markdownpoc
 
 const val SampleMarkDown = """
+    n a place where change often moves slowly, a converging of micro and macro factors have recently triggered a positive inflection point for Japanese equities. 
+
+![new-dawn-japanese-equities.jpg](https://powerful-oasis-c2085bc978.media.strapiapp.com/new_dawn_japanese_equities_6048288a02.jpg)
+
+With the Topix reaching highs not seen since Sega were exporting the mega drive, below we cover some of the key structural drivers behind the recent resurgence in Japanese equities and why we think they could remain in the early stages of a multi-year structural bull market.
+
+Corporate capital reforms paying dividends
+------------------------------------------
+
+The fundamental shift towards better corporate governance practices in Japan has gathered momentum in recent years. Initiated by the Abe government, significant legislative reforms – which included revisions to Japan's Stewardship Code and the introduction of Japan's Corporate Governance Code (CGC) – articulated for the first time a clear framework for shareholder orientated corporate governance in Japan. The hard evidence of these positive changes to capital management have been increasingly flowing through to shareholder returns.
+
+Dividend growth in Japan has experienced a remarkable year-on-year increase of close to 10% over the past decade, while payout ratios have remained at lower levels than those of the US and Europe, suggesting significant scope for further growth. Meanwhile, 2023 is shaping up to be a record year for company share buybacks with ${'$'}50bn already announced through May (vs ${'$'}100bn in 2022).1
+
+All this at a time when earnings growth is showing resilience, indicating that Japanese companies look set to continue unlocking capital they have accumulated over decades (just under 50% of Japan's companies are still net cash vs 10-15% in the US and Europe).2
+
+Foreign investors return
+------------------------
+
+One of the key objectives of Japan's corporate governance reforms was to reshape the Japanese equities market to one that would better resemble other developed markets in terms of prioritising shareholders and delivering shareholder value – ostensibly with an aim of making Japanese equities more attractive to foreign investors. This appears to be working, with a fresh wave of foreign investors purchasing a net ${'$'}15.6 billion worth of Japanese shares in April, the highest monthly level since 2017.3
+
+Among them, Warren Buffet, who recently announced that Berkshire Hathaway now owns more stocks in Japan than in any other country outside of the US – having increased its investments in each of Japan's five largest trading companies from 5% to 7.4% and stating their plans to hold these investments for the next 10 to 20 years.4
+
+Attractive relative valuations
+------------------------------
+
+On a pure valuation basis, Japanese equities remain one of the cheapest amongst developed market – particularly compared to the US S&P500. Critically, around half of Japanese companies are trading at discount to their book value,5 with the overall price-to-book ratio of the Topix at 1.37 vs. 4.19 for the S&P 500.
+
+|                   | P/E    | Fwd P/E | Est Fwd EPS Growth | Price/Sales | Price/Book |
+|-------------------|--------|---------|--------------------|-------------|------------|
+| Topix             | 15.69x | 14.84x  | 5.71%              | 0.88x       | 1.37x      |
+| S&P 500           | 19.44x | 19.49x  | -0.24%             | 2.44x       | 4.19x      |
+
+##### Source: Bloomberg. As at 26 June 2023.
+
+Macroeconomic environment: Supportive BoJ and weaker Yen
+--------------------------------------------------------
+
+Lastly, the BoJ remains highly accommodative, both in absolute terms and relative to other central banks. And though inflation is beginning to emerge, it still remains at levels lower than other developed markets. While this remains the case, it is broadly expected that the BoJ will maintain its policy stance to ensure inflation becomes entrenched around its 2% target. This is likely to continue to be supportive for risk assets, but also has the potential to sustain a weaker Yen (which is already weak based on FX fundamentals i.e. purchasing power parity) – providing earnings translation benefits for large Japanese multinationals and exporters, which are now ultra-competitive.
+
+Emerging geopolitical considerations could provide additional tailwinds for Japanese manufactures. As a democratic and politically stable western ally, "Japan Inc", which has a long legacy of manufacturing leadership, has the potential to benefit from the growing need to fortify global supply and prioritise security and resilience over cost and efficiency.
+
+Such "Friend shoring" will see Japan being a lynchpin for Asian-based supply chains, especially in the area of semiconductors. Seven of the world's largest semiconductor makers, including TSMC, Samsung and Intel, are planning to increase manufacturing capacity and strategic partnerships in Japan to take advantage of the highly skilled advanced manufacturing workforce and government incentives.
+
+In addition, the global trend towards onshoring will drive demand for industrial and factory automation technology, where Japan is a global leader.
+
+[HJPN Japan ETF – Currency Hedged](security://HJPN.AU)
+
+HJPN aims to track the performance of an index (before fees and expenses) that provides diversified exposure to the largest globally competitive Japanese companies, hedged into Australian dollars.
+
+A lower Yen tends to boost corporate earnings in Japan's export-oriented economy. However, if you are an offshore investor holding Japanese equities that are not currency hedged, any currency tailwind for Japanese corporate profitability could be partially or fully eroded by devaluation of Japanese equities in AUD terms.
+
+In addition, currency hedging currently provides a 4.59% p.a. carry (as at 26 June 2023) vs. an equivalent unhedged exposure, due to the interest rate differential between Japan and Australia.
+    
+"""
+
+const val SampleMarkDown2 = """
     Social media, digital advertising, and e-commerce were three huge trends for tech investors that defined the last decade. The impressive growth in these sectors helped propel Meta (formerly Facebook), Alphabet (formerly Google), and Amazon to among the largest companies in the world.
 
 ![trends-in-tech.jpg](https://powerful-oasis-c2085bc978.media.strapiapp.com/trends_in_tech_f759b1f5ca.jpg)
